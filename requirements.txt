@@ -1,0 +1,7 @@
+fastapi[all]
+alembic
+sqladmin
+sqlalchemy
+python-decouple
+pre-commit
+psycopg2-binary
