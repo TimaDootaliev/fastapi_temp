@@ -7,3 +7,6 @@ pre-commit
 psycopg2-binary
 passlib
 bcrypt
+redis
+celery
+flower

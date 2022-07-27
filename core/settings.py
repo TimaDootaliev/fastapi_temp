@@ -12,3 +12,7 @@ class Settings:
 
     DEBUG = config('DEBUG', default=False, cast=bool)
     DB_URL = '{}://{}:{}@{}:{}/{}'.format(DB_ENGINE, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DB_NAME)
+    REDIS_URL = config('REDIS_URL', default='redis://localhost:6379/0')
+
+
+settings = Settings()
